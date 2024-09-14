@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b264bee7-f1f9-4e3b-b99a-405e0af326b4)# CONFIG-prac-1
+
 # Задание 1
 
 ![image](https://github.com/user-attachments/assets/f547c21c-2bf9-4fef-a0b5-3866bc80fa20)
