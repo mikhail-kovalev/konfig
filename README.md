@@ -1,19 +1,26 @@
-# CONFIG-prac-1
+![image](https://github.com/user-attachments/assets/b264bee7-f1f9-4e3b-b99a-405e0af326b4)# CONFIG-prac-1
 # Задание 1
+
+![image](https://github.com/user-attachments/assets/f547c21c-2bf9-4fef-a0b5-3866bc80fa20)
+![image](https://github.com/user-attachments/assets/4a56c8dd-e351-4955-81d2-90b8a3525514)
 ```
 grep '.*' /etc/passwd | cut -d':' -f1 | sort
 ```
-![image](https://github.com/user-attachments/assets/9f084527-d314-407d-992f-78a87bcdd5d0)
-
 
 # Задание 2
+
+![image](https://github.com/user-attachments/assets/68c1cf81-56a8-47cc-bc8a-02a0f645bdad)
+![image](https://github.com/user-attachments/assets/7c1aca4d-8786-4187-ad79-ae6d7c5d554c)
+
 ```
 cat /etc/protocols | awk '{print $2, $1}' | sort -nr | head -5
 ```
-![image](https://github.com/user-attachments/assets/0eb7ef82-030d-4185-9843-c25eb0583bb6)
-
 
 # Задание 3
+
+![image](https://github.com/user-attachments/assets/e636f362-bbca-4e23-8cb5-ade36fbc37d9)
+![image](https://github.com/user-attachments/assets/5f579ab6-4b8d-41b8-87c8-3130059ae606)
+
 ```
 nano banner.sh
 ```
@@ -47,10 +54,12 @@ chmod +x banner.sh
 #запуск скрипта
 ./banner.sh "Hello from RTU MIREA!"
 ```
-![image](https://github.com/user-attachments/assets/5684973e-6485-4084-849d-a9000da610d9)
-
 
 # Задание 4
+
+![image](https://github.com/user-attachments/assets/7c545689-ad3d-4174-ab87-7c343b4055a7)
+![image](https://github.com/user-attachments/assets/c3a1de7a-c4af-4799-814f-1557aacdd2cf)
+
 ```
 nano hello.c
 ```
@@ -69,12 +78,14 @@ int main() {
 ```
 grep -o -E '\b[_a-zA-Z][_a-zA-Z0-9]*\b' hello.c | sort | uniq
 ```
-![image](https://github.com/user-attachments/assets/da79ac58-5018-4ded-b446-4fc07d82b970)
-
 
 
 
 # Задание 5
+
+![image](https://github.com/user-attachments/assets/58db81f5-2b82-40c1-88f2-8e2e33faa725)
+![image](https://github.com/user-attachments/assets/bccd1a2e-aa12-43ee-980c-edab8544749a)
+
 ```
 nano reg
 ```
@@ -123,10 +134,13 @@ ls -l /usr/local/bin/banner.sh
 ```
 banner.sh "Hello from RTU MIREA!"
 ```
-![image](https://github.com/user-attachments/assets/70fd607e-f7e9-4a44-886b-dfae77e44d0f)
-
 
 # Задание 6
+
+![image](https://github.com/user-attachments/assets/6748d166-e95d-4f94-bb7a-852a22b31007)
+![image](https://github.com/user-attachments/assets/a520db14-ca86-4f77-9339-a8bbf599d8ed)
+![image](https://github.com/user-attachments/assets/e07284f1-8616-4c6d-b06a-044d0713c4ea)
+
 ```
 nano check_comments.sh
 ```
@@ -178,10 +192,14 @@ ls -R
 ```
 cat check_comments.sh
 ```
-![image](https://github.com/user-attachments/assets/ce13b7b8-a1af-4e2f-9f95-725cbbec8398)
-
 
 # Задание 7
+![image](https://github.com/user-attachments/assets/850f1eca-33e5-4738-aafc-a5c107c694ca)
+![image](https://github.com/user-attachments/assets/cee7fcdc-ad17-4eed-9711-0acd42e7a3fb)
+![image](https://github.com/user-attachments/assets/3e33c22a-7024-46ec-97e0-141b65c61d34)
+
+![image](https://github.com/user-attachments/assets/981f38cd-3225-44ca-83c7-5c8f16843a69)
+
 ```
 nano find_duplicates.sh
 ```
@@ -206,11 +224,13 @@ chmod +x find_duplicates.sh
 ```
 ./find_duplicates.sh /root
 ```
-![image](https://github.com/user-attachments/assets/1bab1eb5-c95d-480f-a387-8a8864e0ff59)
-
 
 
 # Задание 8
+![image](https://github.com/user-attachments/assets/52db1d37-a2ac-4a5b-89ab-8c72dfc9bbb6)
+![image](https://github.com/user-attachments/assets/f681519a-c2d5-4b77-9feb-25c7a91a5f03)
+![image](https://github.com/user-attachments/assets/d4f8b70b-713c-4a35-a528-6ff524f1976f)
+
 ```
 nano archive_files.sh
 ```
@@ -251,11 +271,12 @@ ls -l
 ```
 ls -ld
 ```
-![image](https://github.com/user-attachments/assets/55316458-e194-4419-9e69-4b740333cd3f)
-
 
 
 # Задание 9
+![image](https://github.com/user-attachments/assets/eefe08f4-3a20-4703-a47c-486d7dd7b7f3)
+![image](https://github.com/user-attachments/assets/573437e3-b05d-41d9-b8f3-7abf8452391c)
+
 ```
 nano replace_spaces.sh
 ```
@@ -299,11 +320,15 @@ cat output.txt
 ```
 od -c output.txt
 ```
-![image](https://github.com/user-attachments/assets/b3323cf3-f133-44bd-84ee-f0806001cde0)
-
 
 
 # Задание 10
+
+![image](https://github.com/user-attachments/assets/046346ec-900d-4ba0-9a99-2d598b79cabb)
+![image](https://github.com/user-attachments/assets/60e222c2-9286-4411-8276-4e50de19612d)
+
+![image](https://github.com/user-attachments/assets/4fdd6da8-bd89-412a-9de7-0c98fa3877ac)
+
 ```
 nano find_empty_files.sh
 ```
@@ -329,4 +354,3 @@ find "$directory" -type f -empty -exec file {} \; | grep "empty" | cut -d: -f1
 ```
 find /home/testdir -maxdepth 1 -type f -size 0c
 ```
-![image](https://github.com/user-attachments/assets/2053ad36-dbb8-4a80-ab22-cef22b000e3b)
