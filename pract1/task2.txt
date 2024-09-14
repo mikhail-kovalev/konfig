@@ -1,7 +1,0 @@
-cat /etc/protocols | awk '$2 ~ /^[0-9]+$/
-> { print $2, $1}' | sort -nr | head -n 5
-103 pim
-98 encap
-94 ipip
-89 ospf
-81 vmtp
